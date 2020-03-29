@@ -2,10 +2,17 @@
 using namespace std;
 
 
-void max(int x,int y)
+int max(int x,int y)
 {
     if(x>y)
-        cout<<x;
+     {
+   		cout<<x;
+	}
     else
-        cout<<y;
+ 
+	{
+ 	   cout<<y;
+	}
+return 0;
+
 }
