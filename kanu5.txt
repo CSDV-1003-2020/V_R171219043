@@ -6,13 +6,21 @@ int max(int x,int y)
 {
     if(x>y)
      {
-   		cout<<x;
+   		return x;
 	}
     else
  
 	{
- 	   cout<<y;
+ 	   return y;
 	}
+}
+int main()
+{
+int x,y;
+
+int c= max(x,y);
+cout<<c;
+
 return 0;
 
 }
