@@ -1,0 +1,33 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+class functions{
+public:
+    void Body(){
+        cout << " CALCULATOR" << endl;   
+    }               
+    int Add(int x, int y){
+        int ans = x + y;
+        return ans;
+    }       
+    int Sub(int x, int y){
+        int ans = x - y;
+        return ans;
+    }       
+    int Multi(int x, int y){
+        int ans = x * y;
+        return ans;
+    }       
+    int Div(int x, int y){
+        int ans = x / y;
+        return ans;
+    }
+};
+
+int main(){
+int func;
+int x, y;
+
+functions key;
+key.Body();
