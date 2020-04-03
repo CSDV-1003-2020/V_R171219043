@@ -1,5 +1,4 @@
-#include <iostream>
-using namespace std;
+#include <iostream.h>
 
 class functions
 {
@@ -31,5 +30,5 @@ int x, y;
 
 functions key;
 key.Body();
-return 0;
+
 }
