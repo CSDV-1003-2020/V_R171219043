@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 class functions
@@ -31,5 +32,5 @@ int x, y;
 
 functions key;
 key.Body();
-return 0;
+
 }
