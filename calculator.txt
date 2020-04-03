@@ -1,8 +1,8 @@
 #include <iostream>
-#include <conio.h>
 using namespace std;
 
-class functions{
+class functions
+{
 public:
     void Body(){
         cout << " CALCULATOR" << endl;   
@@ -31,3 +31,5 @@ int x, y;
 
 functions key;
 key.Body();
+return 0;
+}
